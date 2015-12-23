@@ -67,6 +67,8 @@
 					$('#titleBar, #navPanel, #page-wrapper')
 						.css('transition', 'none');
 
+
+
 	});
 
 })(jQuery);
