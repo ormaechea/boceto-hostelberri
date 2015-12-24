@@ -1919,19 +1919,36 @@
 
 /* Slider/Carousel */
 
-#banner2{
-	width: 100%;
-	height: 360px;
-	background: #fff url(images/banner.jpg) no-repeat;
-	background-size: 100% 100%;
-	position: relative;
-}
+#banner-background {
+				-moz-box-sizing: content-box;
+				-webkit-box-sizing: content-box;
+				-ms-box-sizing: content-box;
+				box-sizing: content-box;
+				position: relative;
+				width: 1160px;
+				height: 340px;
+				box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+				border-radius: 10px;
+				padding: 20px;
+				background: #fff no-repeat 20px 20px;
+				background-size: 1160px 265px;
+			}
+	#banner {
+				position: relative;
+				width: 100%;
+				height: 240px;
+				background: #fff no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+			}
+
 
 .css-carousel {
 	width: 100%;
-	height: 300px; /* Height of images */
+	height: 335px; /* Height of images */
 	position: relative;
 	overflow: hidden;
+
 }
 .css-carousel .css-img {
 	max-width: 100%;
@@ -1943,6 +1960,7 @@
 	-moz-animation: css-carousel-fade 15s linear infinite;
 	-ms-animation: css-carousel-fade 15s linear infinite;
 	animation: css-carousel-fade 15s linear infinite;
+
 }
 .css-carousel .css-img:nth-child(2) {
 	-webkit-animation-delay: 5s;
@@ -1956,37 +1974,20 @@
 	-ms-animation-delay: 10s;
 	animation-delay: 10s;
 }
-/*.css-carousel .css-img:nth-child(4) {
-	-webkit-animation-delay: 15s;
-	-moz-animation-delay: 15s;
-	-ms-animation-delay: 15s;
-	animation-delay: 15s;
-}
-.css-carousel .css-img:nth-child(5) {
-	-webkit-animation-delay: 20s;
-	-moz-animation-delay: 20s;
-	-ms-animation-delay: 20s;
-	animation-delay: 20s;
-}
-.css-carousel .css-img:nth-child(6) {
-	-webkit-animation-delay: 25s;
-	-moz-animation-delay: 25s;
-	-ms-animation-delay: 25s;
-	animation-delay: 25s;
-}*/
+
 @-webkit-keyframes css-carousel-fade {
-    0%, 20%, 100% { opacity: 0; }
-    5%, 15% { opacity: 1;}
+    10%, 54%, 100% { opacity: 0; }
+    10%, 30% { opacity: 1;}
 }
 @-moz-keyframes css-carousel-fade {
-    0%, 20%, 100% { opacity: 0; }
-    5%, 15% { opacity: 1;}
+    10%,54%, 100% { opacity: 0; }
+    10%, 30% { opacity: 1;}
 }
 @-ms-keyframes css-carousel-fade {
-    0%, 20%, 100% { opacity: 0; }
-    5%, 15% { opacity: 1;}
+    10%,54%, 100% { opacity: 0; }
+    10%, 30% { opacity: 1;}
 }
 @keyframes css-carousel-fade {
-	0%, 20%, 100% { opacity: 0; }
-	5%, 15% { opacity: 1;}
+	10%, 54%, 100% { opacity: 0; }
+	10%, 30% { opacity: 1;}
 }
